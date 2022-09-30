@@ -1,0 +1,52 @@
+body{
+	background-color: snow;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+	border-radius: 9px;
+	height: 50px;
+	width: 1200px;
+	background-color: darkblue;
+	text-transform: uppercase;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	left: 60px;
+	top: 30px;
+}
+.logo{
+	position: relative;
+	height: 100px;
+	width: 120px;
+	border-radius: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: white;
+	transform: scale(2,1);
+}
+.about{
+	margin-left: 20px;
+	display: block;
+}
+h1{
+	font-size: 3rem;
+	font-family: fantasy;
+	color: darkblue;
+}
+p{
+	color: darkblue;
+	font-size: 1.5rem;
+}
+.main{
+	margin-left: 60%;
+	margin-top: -300px;
+	width: 500px;
+
+}
