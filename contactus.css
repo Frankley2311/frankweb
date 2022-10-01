@@ -1,0 +1,22 @@
+.fa-facebook{
+	
+}
+.whatsapp{
+	border: 1px solid white;
+	border-radius: 40%;
+}
+.contactus{
+	justify-content: center;
+}
+.linkedin{
+	background: white;
+	border: 1px solid white;
+}
+h1{
+	color: darkblue;
+	text-align: center;
+}
+.media{
+	letter-spacing: 10px;
+	text-align: center;
+}
