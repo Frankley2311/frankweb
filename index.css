@@ -1,6 +1,7 @@
 body{
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexYPSpub-Sv-7dbc_WVJVBSRyezi5U6ne6A&usqp=CAU);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .logo{
 	height: 50px;
