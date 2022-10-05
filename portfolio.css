@@ -1,0 +1,155 @@
+.title{
+	font-size: 1.5rem;
+	text-transform: lowercase;
+	font-style: italic;
+	font-weight: bolder;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.title:after{
+	color: orange;
+	content: "WEB•";
+}
+.job{
+	font-size: 0.9rem;
+	color: orange;
+	text-transform: uppercase;
+	margin-top: 150px;
+	font-weight: bolder;
+}
+.name{
+	font-size: 2rem;
+	color: black;
+	font-family: fantasy;
+	font-style: notable;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+.picture{
+	width: 350px;
+	height: 350px;
+	box-shadow: orange;
+	border-radius: 50%;
+	padding: 5px;
+	background-color: orange;
+}
+.about{
+	border: 1px solid blue;
+	align-self: center;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	background-color: blue;
+
+}
+.watt{
+	border: 1px solid blue;
+	align-self: center;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	background-color: green;
+}
+.buttons{
+	display: flex;
+	margin-top: 20px;
+    justify-content: center;
+}
+.back{
+	border: 1px solid blue;
+	align-self: center;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: blue;
+	background-color: white;
+	margin-left: 165px;
+}
+
+@media only screen and (min-width: 800px){
+	.title{
+	font-size: 2rem;
+	text-transform: lowercase;
+	font-style: italic;
+	font-weight: bolder;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.job{
+	font-size: 0.7rem;
+}
+.main{
+	float: left;
+	margin-left: 15px;
+}
+.name{
+	font-size: 3rem;
+	margin-top: 10px;
+}
+.picture{
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-top: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: orange;
+    background-size: 100%;
+    margin-right: 40px;
+}
+.buttons{
+	margin-top: 500px;
+    justify-content: center;
+}
+.back{
+	border: 1px solid blue;
+	align-self: center;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: blue;
+	background-color: white;
+	margin-left: 380px;
+}
+}
+
+@media only screen and (min-width: 1000px){
+.job{
+	font-size: 0.9rem;
+	margin-left: 10px;
+}
+.main{
+	float: left;
+	margin-left: 40px;
+}
+.name{
+	font-size: 4rem;
+}
+.picture{
+	width: 500px;
+	height: 500px;
+	float: right;
+	margin-top: 100px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: orange;
+    margin-right: 60px;
+}
+.buttons{
+	margin-top: 650px;
+    justify-content: center;
+}
+.back{
+	border: 1px solid blue;
+	align-self: center;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: blue;
+	background-color: white;
+	margin-left: 610px;
+}
+}
+
