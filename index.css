@@ -5,9 +5,10 @@
 .header{
 	height: 50px;
 	width: 100%;
-	background-color: darkorange;
+	background-color: orange;
 	display: flex;
 	justify-content: space-between;
+	border: 1px solid orange;
 	border-radius: 10px;
 }
 .about{
