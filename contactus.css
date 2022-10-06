@@ -27,4 +27,8 @@ h1{
 	color: blue;
 	background-color: white;
 	margin-top: 20px;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-left: 200px;
+	
 }
