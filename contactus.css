@@ -20,3 +20,11 @@ h1{
 	letter-spacing: 10px;
 	text-align: center;
 }
+.back{
+	border: 1px solid blue;
+	align-self: center;
+	padding: 10px;
+	color: blue;
+	background-color: white;
+	margin-top: 20px;
+}
